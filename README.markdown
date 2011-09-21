@@ -257,6 +257,10 @@ Rather than displaying spec results as a table view you can choose to output spe
 
 When run headlessly you can specify the class used to format spec results using the `CEDAR_REPORTER_CLASS` environment variable.
 
+## Specifying Specs to Run
+
+Cedar can run only a subset of the available spec classes. Set the `CEDAR_SPECS` environment variable to a whitespace separated list of class names Cedar should run and only those spec classes will execute.
+
 ## Contributions and feedback
 
 Welcomed!  Feel free to join and contribute to the public Tracker project [here](http://www.pivotaltracker.com/projects/77775).
