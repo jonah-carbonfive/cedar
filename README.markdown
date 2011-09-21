@@ -253,6 +253,10 @@ Alternately, you can run the installCodeSnippets script, which will do it for yo
 
 Rather than displaying spec results as a table view you can choose to output spec result to the console by setting the `CEDAR_HEADLESS_SPECS` environment variable.
 
+### Custom Reporters
+
+When run headlessly you can specify the class used to format spec results using the `CEDAR_REPORTER_CLASS` environment variable.
+
 ## Contributions and feedback
 
 Welcomed!  Feel free to join and contribute to the public Tracker project [here](http://www.pivotaltracker.com/projects/77775).
