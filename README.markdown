@@ -249,6 +249,9 @@ to create the directory):
 
 Alternately, you can run the installCodeSnippets script, which will do it for you. 
 
+## Headless Specs
+
+Rather than displaying spec results as a table view you can choose to output spec result to the console by setting the `CEDAR_HEADLESS_SPECS` environment variable.
 
 ## Contributions and feedback
 
